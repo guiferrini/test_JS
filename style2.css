@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+}
+
+h1, h3 {
+    font-size: 25px;
+    text-align: center;
+    padding: 7px;
+    background-color: yellowgreen;
+    width: auto;
+}
+}
+
+h2, input.valor, input.ope {
+    font-size: 18px;
+    background-color: red;
+    padding: 5px;
+    /* margin: 10px; */
+    border: 10px;
+    margin: 6px;
+    border-radius: 40px;
+    align-items: center;
+}
+}
+
+p {
+    font-size: 18px;
+}
+
+section.quadrado1 {
+    display: flex;
+    flex-direction: column;
+    background-color: greenyellow;
+    width: 140px;
+    height: 220px;
+    text-align: center;
+    padding: 20px;
+    margin: 90px;
+    border-radius: 40px;
+}
+
+.tudo {
+    padding: 7px;
+    margin: 8px;
+    background-color: blue;
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: baseline;
+}
+
