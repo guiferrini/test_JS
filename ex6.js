@@ -8,8 +8,6 @@ function gerar() {
 function personal() {
     let nombre = (document.getElementById("txt").value).toUpperCase();
     let comprimento = nombre.length
-
-    /*If length menor q 5, gera outro codigo*/
     
     let letraas = ["A", "B", "C", "D", "E"];
     let letras2 = ["F", "G", "H", "I", "J"];
