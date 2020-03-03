@@ -1,8 +1,8 @@
 function gerar() {
     let n = document.getElementById("txt").value;
     cont = 0;
-    c = 1;
-    while (c <= n) {
+    
+    for (let c = n; c >= n; c--) {
         if (n % c == 0) {
             cont += 1;
             c++
@@ -10,6 +10,25 @@ function gerar() {
             c++
         }
     }
+    /*for (let c = 1; c <= n; c++) {
+        if (n % c == 0) {
+            cont += 1;
+            c++
+        } else {
+            c++
+        }
+        
+    }*/
+
+    /*c = 1;
+    while (c <= n) {
+        if (n % c == 0) {
+            cont += 1;
+            c++
+        } else {
+            c++
+        }
+    }*/
     if (cont == 2) {
         document.getElementById("resp").innerHTML = "número primo";  
     } else {
