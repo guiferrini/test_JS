@@ -2,14 +2,8 @@ function gerar() {
     let n = document.getElementById("txt").value;
     cont = 0;
     
-    for (let c = n; c >= n; c--) {
-        if (n % c == 0) {
-            cont += 1;
-            c++
-        } else {
-            c++
-        }
-    }
+
+    
     /*for (let c = 1; c <= n; c++) {
         if (n % c == 0) {
             cont += 1;
