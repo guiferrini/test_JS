@@ -16,7 +16,15 @@ function gerar() {
     } else {
         np += c + " ";
     } 
+        //imprimi primos coloridos e NP sem cor, porem é 2 listas diferentes
         document.getElementById("resp").innerText = geral;
         document.getElementById("resp2").innerText = np;
+
+        /* fazer uma unica lista, ordenar e imprimir colorido só os primos
+        var res = geral.concat(np);
+        //res.sort();
+        document.getElementById("resp").innerHTML = res;*/
+
+        
     }
-}
+} 
